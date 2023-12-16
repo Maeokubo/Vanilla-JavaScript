@@ -1,0 +1,51 @@
+html {
+    font-size: 10px;
+    background:bottom center url(./music-audio.jpg)   ;
+    background-size: cover;
+} 
+
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family:monospace;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    border: .4rem solid #111010;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem .5rem;
+    transition: all .7s ease;  /* when we add playing */
+    width: 10rem;
+    text-align: center;
+    background: rgba(0, 0, 0, .4);
+    text-shadow: 0 0 .7rem rgb(255, 255, 255);
+}
+
+.playing{
+    transform: scale(1.1);      /*make it slower change scale and transition .s */
+    border-color: #ff00a6;
+    box-shadow: 0 0 1rem #ed76df;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ff003c;
+}
