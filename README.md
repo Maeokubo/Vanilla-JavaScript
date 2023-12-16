@@ -1,2 +1,2 @@
-# Vanilla-JavaScript
-30 Day Vanilla JS Coding Challenge 💻 🎧 🏗️
+# 🦄Vanilla JavaScript Projects✨🌝
+30 Day Vanilla JavaScript Coding Challenge 💻 🎧 🏗️
